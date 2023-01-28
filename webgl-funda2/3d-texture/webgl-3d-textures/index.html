@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas" width="2560" height="1080">
+        test
+    </canvas>
+    <br />
+    <i>Demo is above the text matrices</i>
+    <div id="uiContainer">
+        <div id="ui">
+            <div id="fieldOfView"></div>
+            <div id="shininess"></div>
+            <div id="x"></div>
+            <div id="y"></div>
+            <div id="lightx"></div>
+            <div id="lighty"></div>
+            <div id="innerlimit"></div>
+            <div id="innerlimit"></div>
+
+            <div id="z"></div>
+        </div>
+    </div>
+    <!--
+    for most samples webgl-utils only provides shader compiling/linking and
+    canvas resizing because why clutter the examples with code that's the same in every sample.
+    See https://webgl2fundamentals.org/webgl/lessons/webgl-boilerplate.html
+    and https://webgl2fundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html
+    for webgl-utils, m3, m4, and webgl-lessons-ui.
+    -->
+    <script src="https://webgl2fundamentals.org/webgl/resources/m4.js"></script>
+    <script src="https://webgl2fundamentals.org/webgl/resources/webgl-utils.js"></script>
+    <!-- <script src="https://webgl2fundamentals.org/webgl/resources/webgl-lessons-ui.js"></script> -->
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
